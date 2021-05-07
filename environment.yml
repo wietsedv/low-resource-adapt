@@ -1,0 +1,22 @@
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.8
+  - pytorch
+  - transformers
+  - tokenizers
+  - yapf
+  - flake8
+  - datasets
+  - seqeval
+  - wandb
+  - scikit-learn
+  - tabulate
+  - matplotlib
+  - seaborn
+  - ufal.udpipe
+  - conllu
+  - openpyxl

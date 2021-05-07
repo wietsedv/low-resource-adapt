@@ -1,0 +1,6 @@
+{
+    "eval_steps": 1000,
+    "save_steps": 1000,
+    "warmup_steps": 1000,
+    "num_train_epochs": 50
+}

@@ -1,0 +1,9 @@
+{
+    "save_steps": 25000,
+    "num_train_epochs": 50,
+    "learning_rate": 1e-4,
+    "unfreeze_layers": [
+        "bert.embeddings.word_embeddings"
+    ],
+    "seed": 9123929
+}

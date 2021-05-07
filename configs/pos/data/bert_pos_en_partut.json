@@ -1,0 +1,6 @@
+{
+    "model_name_or_path": "bert-base-cased",
+    "train_file": "data/examples/en_partut_train.json",
+    "validation_file": "data/examples/en_partut_dev.json",
+    "test_file": "data/examples/en_partut_test.json"
+}

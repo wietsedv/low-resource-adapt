@@ -1,0 +1,8 @@
+{
+    "do_train": true,
+    "do_eval": true,
+    "do_predict": true,
+    "evaluation_strategy": "steps",
+    "output_dir": "data/output/pos",
+    "seed": 798543987
+}

@@ -1,0 +1,6 @@
+{
+    "model_name_or_path": "bert-base-cased",
+    "train_file": "data/examples/en_gum_train.json",
+    "validation_file": "data/examples/en_gum_dev.json",
+    "test_file": "data/examples/en_gum_test.json"
+}

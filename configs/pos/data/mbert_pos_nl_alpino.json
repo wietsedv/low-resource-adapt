@@ -1,0 +1,6 @@
+{
+    "model_name_or_path": "bert-base-multilingual-cased",
+    "train_file": "data/examples/nl_alpino_train.json",
+    "validation_file": "data/examples/nl_alpino_dev.json",
+    "test_file": "data/examples/nl_alpino_test.json"
+}

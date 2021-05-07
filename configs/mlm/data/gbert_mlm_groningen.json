@@ -1,0 +1,5 @@
+{
+    "model_name_or_path": "bert-base-german-dbmdz-cased",
+    "tokenizer_name": "data/tokenizers/bert-groningen-cased-10k",
+    "train_file": "data/sources/raw-groningen/plaintext.txt"
+}

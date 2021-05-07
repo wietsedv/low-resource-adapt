@@ -1,0 +1,121 @@
+data:
+  dev:
+    - fy_nieuws_dev1
+    - fy_testap_dev1
+    - fy_tresoar_dev1
+    - gro_klunderloa_dev1
+  test:
+    # source:
+      - de_gsd_test
+      - de_hdt_test
+      - en_gum_test
+      - en_partut_test
+      - nl_alpino_test
+      - nl_lassysmall_test
+    # target:
+      - fy_nieuws_dev2
+      - fy_testap_dev2
+      - fy_tresoar_dev2
+      - gro_klunderloa_dev2
+
+checkpoints:
+  mlm:
+    v2:
+      bertje_mlm_groningen: [300_000, 350_000, 400_000, 450_000, 500_000, 550_000, 600_000, 650_000, 700_000, 750_000, 800_000, 850_000, 900_000, 925_000]  # 100_000, 150_000, 200_000, 250_000, 
+      bert_mlm_groningen: [300_000, 350_000, 400_000, 450_000, 500_000, 550_000, 600_000, 650_000, 700_000, 750_000, 800_000, 850_000, 900_000]
+      gbert_mlm_groningen: [300_000, 350_000, 400_000, 450_000, 500_000]
+      mbert_mlm_groningen: [300_000, 350_000, 400_000, 450_000, 500_000, 550_000, 600_000, 650_000, 700_000, 750_000, 800_000, 850_000, 900_000, 950_000, 1_000_000]
+
+      bertje_mlm_frisian: [100_000, 150_000, 200_000, 250_000, 300_000, 350_000, 400_000, 450_000, 500_000]
+      bert_mlm_frisian: [100_000, 150_000, 200_000, 250_000, 300_000, 350_000, 400_000, 450_000, 500_000]
+      gbert_mlm_frisian: [100_000, 150_000, 200_000, 250_000, 300_000, 350_000, 400_000, 450_000, 500_000]
+      mbert_mlm_frisian: [100_000, 150_000, 200_000, 250_000, 300_000, 350_000, 400_000, 450_000, 500_000]
+
+  pos:
+    v3-noemb:
+      bert_pos_en_gum:
+        - {pos: 50_000,
+          frisian: 500_000, best: [frisian],  # Dev: 0.740, Last: 500_000
+        }
+        - {pos: 50_000,
+          groningen: 900_000, best: [groningen],  # Dev: 0.556, Last: 900_000
+        }
+      bert_pos_en_partut:
+        - {pos: 40_000,
+          frisian: 450_000, best: [frisian],  # Dev: 0.769, Last: 500_000
+        }
+        - {pos: 40_000,
+          groningen: 900_000, best: [groningen],  # Dev: 0.678, Last: 900_000
+        }
+      bertje_pos_nl_alpino:
+        - {pos: 130_000,
+          frisian: 250_000, best: [frisian],  # Dev: 0.949, Last: 500_000
+        }
+        - {pos: 70_000,
+          groningen: 925_000, best: [groningen],  # Dev: 0.920, Last: 925_000
+        }
+      bertje_pos_nl_lassysmall:
+        - {pos: 50_000,
+          frisian: 450_000, best: [frisian],  # Dev: 0.947, Last: 500_000
+        }
+        - {pos: 100_000,
+          groningen: 350_000, best: [groningen],  # Dev: 0.905, Last: 925_000
+        }
+      gbert_pos_de_gsd:
+        - {pos: 70_000,
+          frisian: 200_000, best: [frisian],  # Dev: 0.888, Last: 500_000
+        }
+        - {pos: 130_000,
+          groningen: 300_000, best: [groningen],  # Dev: 0.836, Last: 500_000
+        }
+      gbert_pos_de_hdt:
+        - {pos: 20_000,
+          frisian: 250_000, best: [frisian],  # Dev: 0.890, Last: 500_000
+        }
+        - {pos: 100_000,
+          groningen: 400_000, best: [groningen],  # Dev: 0.862, Last: 500_000
+        }
+      mbert_pos_de_gsd:
+        - {pos: 100_000,
+          frisian: 350_000, best: [frisian],  # Dev: 0.875, Last: 500_000
+        }
+        - {pos: 70_000,
+          groningen: 450_000, best: [groningen],  # Dev: 0.836, Last: 1_000_000
+        }
+      mbert_pos_de_hdt:
+        - {pos: 100_000,
+          frisian: 500_000, best: [frisian],  # Dev: 0.824, Last: 500_000
+        }
+        - {pos: 100_000,
+          groningen: 350_000, best: [groningen],  # Dev: 0.803, Last: 1_000_000
+        }
+      mbert_pos_en_gum:
+        - {pos: 130_000,
+          frisian: 200_000, best: [frisian],  # Dev: 0.884, Last: 500_000
+        }
+        - {pos: 150_000,
+          groningen: 500_000, best: [groningen],  # Dev: 0.853, Last: 1_000_000
+        }
+      mbert_pos_en_partut:
+        - {pos: 30_000,
+          frisian: 350_000, best: [frisian],  # Dev: 0.894, Last: 500_000
+        }
+        - {pos: 150_000,
+          groningen: 750_000, best: [groningen],  # Dev: 0.845, Last: 1_000_000
+        }
+      mbert_pos_nl_alpino:
+        - {pos: 130_000,
+          frisian: 250_000, best: [frisian],  # Dev: 0.949, Last: 500_000
+        }
+        - {pos: 100_000,
+          groningen: 700_000, best: [groningen],  # Dev: 0.900, Last: 1_000_000
+        }
+      mbert_pos_nl_lassysmall:
+        - {pos: 70_000,
+          frisian: 200_000, best: [frisian],  # Dev: 0.937, Last: 500_000
+        }
+        - {pos: 50_000,
+          groningen: 350_000, best: [groningen],  # Dev: 0.877, Last: 1_000_000
+        }
+
+

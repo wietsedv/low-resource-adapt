@@ -1,0 +1,8 @@
+{
+    "save_steps": 50000,
+    "num_train_epochs": 50,
+    "learning_rate": 1e-4,
+    "unfreeze_layers": [
+        "bert.embeddings.word_embeddings"
+    ]
+}

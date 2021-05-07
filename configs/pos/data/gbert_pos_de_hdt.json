@@ -1,0 +1,6 @@
+{
+    "model_name_or_path": "bert-base-german-dbmdz-cased",
+    "train_file": "data/examples/de_hdt_train.json",
+    "validation_file": "data/examples/de_hdt_dev.json",
+    "test_file": "data/examples/de_hdt_test.json"
+}

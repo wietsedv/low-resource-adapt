@@ -1,0 +1,6 @@
+{
+    "model_name_or_path": "GroNLP/bert-base-dutch-cased",
+    "train_file": "data/examples/nl_lassysmall_train.json",
+    "validation_file": "data/examples/nl_lassysmall_dev.json",
+    "test_file": "data/examples/nl_lassysmall_test.json"
+}

@@ -1,0 +1,9 @@
+{
+    "save_steps": 25000,
+    "max_steps": 750000,
+    "learning_rate": 1e-4,
+    "unfreeze_layers": [
+        "bert.embeddings.word_embeddings"
+    ],
+    "overwrite_output_dir": true
+}

@@ -1,0 +1,6 @@
+{
+    "model_name_or_path": "bert-base-multilingual-cased",
+    "train_file": "data/examples/de_gsd_train.json",
+    "validation_file": "data/examples/de_gsd_dev.json",
+    "test_file": "data/examples/de_gsd_test.json"
+}

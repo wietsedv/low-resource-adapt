@@ -1,0 +1,9 @@
+{
+    "do_train": true,
+    "do_eval": false,
+    "do_predict": false,
+    "max_seq_length": 128,
+    "line_by_line": false,
+    "output_dir": "data/output/mlm",
+    "seed": 798543987
+}

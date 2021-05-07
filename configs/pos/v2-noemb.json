@@ -1,0 +1,9 @@
+{
+    "freeze_layers": [
+        "bert.embeddings"
+    ],
+    "eval_steps": 5000,
+    "save_steps": 5000,
+    "num_train_epochs": 100,
+    "learning_rate": 1e-4
+}

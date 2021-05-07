@@ -1,0 +1,7 @@
+{
+    "save_steps": 10000,
+    "num_train_epochs": 20,
+    "unfreeze_layers": [
+        "bert.embeddings.word_embeddings"
+    ]
+}
