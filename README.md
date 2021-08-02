@@ -4,7 +4,7 @@ Wietse de Vries • Martijn Bartelds • Malvina Nissim • Martijn Wieling
 
 This repository contains everything that is needed to replicate the results in the paper:
 
-📝 [Adapting Monolingual Models: Data can be Scarce when Language Similarity is High](https://arxiv.org/abs/2105.02855)
+📝 [Adapting Monolingual Models: Data can be Scarce when Language Similarity is High](https://aclanthology.org/2021.findings-acl.433/)
 
 ## Models
 
@@ -34,12 +34,19 @@ Conda/[mamba](https://github.com/mamba-org/mamba) dependencies are listed in `en
 The paper is to appear in Findings of ACL2021. The preprint can be cited as:
 
 ```bibtex
-@misc{devries2021adapting,
-      title={{Adapting Monolingual Models: Data can be Scarce when Language Similarity is High}}, 
-      author={Wietse de Vries and Martijn Bartelds and Malvina Nissim and Martijn Wieling},
-      year={2021},
-      eprint={2105.02855},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{de-vries-etal-2021-adapting,
+    title = "Adapting Monolingual Models: Data can be Scarce when Language Similarity is High",
+    author = "de Vries, Wietse  and
+      Bartelds, Martijn  and
+      Nissim, Malvina  and
+      Wieling, Martijn",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-acl.433",
+    doi = "10.18653/v1/2021.findings-acl.433",
+    pages = "4901--4907",
 }
 ```
